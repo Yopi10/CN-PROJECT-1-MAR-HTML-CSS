@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Belajar HTML</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Hai Nama Saya Yopi</h1>
+    <!-- <h2>Hai Nama Saya Yopi</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium quaerat officiis, esse facere nisi odit iure pariatur natus dignissimos labore. Non fugit soluta sunt quasi ipsam, tempora modi aperiam.</p> -->
+    <hr />
+    <ul>
+      <li><a class="" href="#biodata">BIODATA</a></li>
+      <li><a class="" href="#riwayat">RIWAYAT PENDIDIKAN</a></li>
+      <li><a class="" href="#profil">PROFIL SINGKAT</a></li>
+      <li><a class="" href="#hobi">HOBI</a></li>
+      <li><a class="" href="#kontak">KONTAK</a></li>
+    </ul>
+    <br />
+    <div id="profil">
+    <h2>PROFIL SINGKAT</h2>
+    <div class="three-column">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+        provident explicabo quis repellendus autem beatae commodi quibusdam
+        quam, quaerat nesciunt obcaecati, ratione sunt dolorum facilis fugit
+        aliquid accusantium necessitatibus totam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+        provident explicabo quis repellendus autem beatae commodi quibusdam
+        quam, quaerat nesciunt obcaecati, ratione sunt dolorum facilis fugit
+        aliquid accusantium necessitatibus totam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+        provident explicabo quis repellendus autem beatae commodi quibusdam
+        quam, quaerat nesciunt obcaecati, ratione sunt dolorum facilis fugit
+        aliquid accusantium necessitatibus totam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+        provident explicabo quis repellendus autem beatae commodi quibusdam
+        quam, quaerat nesciunt obcaecati, ratione sunt dolorum facilis fugit
+        aliquid accusantium necessitatibus totam. 
+      </p>
+      <br /><br />
+    </div>
+    </div>
+    <div>
+      <img src="https://avataaars.io/?avatarStyle=Circle&topType=WinterHat3&accessoriesType=Prescription01&hatColor=Red&facialHairType=MoustacheFancy&facialHairColor=BlondeGolden&clotheType=ShirtScoopNeck&clotheColor=Gray01&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light'" alt="logo ys" class="yopi" />
+      <h2 id="biodata">BIODATA</h2>
+      <table class="table-responsive">
+        <tbody>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Tempat, Tanggal Lahir</th>
+            <th>Hobi</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Yopie Setiawan</td>
+            <td>Jakarta,10 june 2000</td>
+            <td>Berenang</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h2 id="kontak1">KONTAK</h2>
+      <p>Jl. Dayeh no 81 cileungsi bogor</p>
+    </div>
+  <div id="kontak">
+    <H1>FORM CONTACT</H1>
+    <form class="form-kontak">
+      <label>Nama Lengkap :</label><br>
+      <input class="text" type="text">
+      <br><br>
+      <label>Email :</label><br>
+      <input class="text" type="email">
+      <br><br>
+      <label>Password :</label><br>
+      <input class="text" type="Password">
+      <br><br>
+      <label>Date :</label><br>
+      <input class="text" type="date">
+      <br><br>
+      <p>Skill :</p>
+      <input type="radio" name="languange" value="HTML">
+      <label>HTML</label>
+      <input type="radio" name="languange" value="CSS">
+      <label>CSS</label>
+      <input type="radio" name="languange" value="JAVASCRIPT">
+      <label>JAVASCRIPT</label>
+      <br><br>
+      <p>Hobi :</p>
+      <input type="radio" name="hobi" value="HTML">
+      <label>Berenang</label>
+      <input type="radio" name="hobi" value="CSS">
+      <label>Bermain Sepak Bola</label>
+      <input type="radio" name="hobi" value="JAVASCRIPT">
+      <label>Memasak</label>
+      <br><br>
+      <P>Kendaraan :</P>
+      <input type="checkbox">
+      <label>Bike</label>
+      <input type="checkbox">
+      <label>Car</label>
+      <input type="checkbox">
+      <label>Motor Cycle</label>
+      <br><br>
+      <label>Pesan :</label><br>
+      <textarea rows="5" cols="30"></textarea>
+      <br><br>
+      <input type="button" value="submit">
+    </form>
+  </div>
+  </body>
 </html>

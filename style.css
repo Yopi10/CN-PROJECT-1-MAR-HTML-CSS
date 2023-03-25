@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(90deg, rgb(173, 173, 243),grey);
+}
+.three-column {
+  column-count: 3;
+  column-gap: 30px;
+  column-width: 200px;
+  color: black;
+}
+.table-responsive td,
+.table-responsive th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+.table-responsive {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#kontak{
+  font-size: 20px;
+  font-weight: bold;
+  width: 600px;
+  border: 5px dashed white;
+  padding: 50px;
+  background-color: green;
+  margin: 0 auto;
+}
+input.text{
+  width: 100%;
+}
+
